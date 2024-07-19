@@ -67,7 +67,7 @@ const reducer = (state, action) => {
       };
 
     default:
-      return;
+      throw new Error('Invalid state')
   }
 };
 

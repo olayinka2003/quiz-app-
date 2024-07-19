@@ -19,3 +19,4 @@ export const Finished = ({points,maxPoints,highscore,dispatch}) => {
     </>
   )
 }
+ 
